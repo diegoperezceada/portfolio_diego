@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { NgxFaultyTerminalComponent } from "@omnedia/ngx-faulty-terminal";
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, NgxFaultyTerminalComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })

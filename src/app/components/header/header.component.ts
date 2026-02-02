@@ -27,10 +27,11 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
   sections = [
     { id: 'home', label: 'NAV.HOME', path: '' },
     { id: 'about', label: 'NAV.ABOUT', path: 'about' },
-    { id: 'experience', label: 'NAV.EXPERIENCE', path: 'experience' },
     { id: 'education', label: 'NAV.EDUCATION', path: 'education' },
     { id: 'certifications', label: 'NAV.CERTIFICATIONS', path: 'certifications' },
     { id: 'skills', label: 'NAV.SKILLS', path: 'skills' },
+    { id: 'experience', label: 'NAV.EXPERIENCE', path: 'experience' },
+    { id: 'projects', label: 'PROJECTS.TITLE_HIGHLIGHT', path: 'projects' },
     { id: 'contact', label: 'NAV.CONTACT', path: 'contact' },
   ];
 

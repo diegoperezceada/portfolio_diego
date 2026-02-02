@@ -131,6 +131,24 @@
       "DESCRIPTION": "Automatización, scripts de backend y generación de PDFs en AWS Lambda."
     }
   },
+
+  "PROJECTS": {
+    "TITLE_PREFIX": "Mis",
+    "TITLE_HIGHLIGHT": "Proyectos",
+    "DESCRIPTION": "Una selección de proyectos personales y profesionales donde he aplicado mis conocimientos para resolver problemas reales.",
+    "ECOMARKET": {
+      "TITLE": "EcoMarket",
+      "DESCRIPTION": "Plataforma de comercio electrónico enfocada en productos sostenibles. Implementa un carrito de compras completo, pasarela de pagos con Stripe y un panel de administración para gestión de inventario."
+    },
+    "TASKFLOW": {
+      "TITLE": "TaskFlow",
+      "DESCRIPTION": "Aplicación de gestión de tareas colaborativa en tiempo real. Permite a equipos crear tableros, asignar tareas y seguir el progreso con actualizaciones instantáneas."
+    },
+    "CLOUDDASH": {
+      "TITLE": "CloudDash",
+      "DESCRIPTION": "Dashboard interactivo para visualizar métricas de costos y rendimiento de servicios AWS. Procesa datos de CloudWatch y los presenta en gráficos intuitivos."
+    }
+  },
   
   "CONTACT": {
     "TITLE_PREFIX": "Ponte en",

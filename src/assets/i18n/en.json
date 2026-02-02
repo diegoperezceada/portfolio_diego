@@ -122,13 +122,27 @@
       "TITLE": "AWS",
       "DESCRIPTION": "Experience with Lambda, DynamoDB, API Gateway, and CDK."
     },
-    "JAVA": {
-      "TITLE": "Java",
-      "DESCRIPTION": "Object-oriented programming and REST API development."
-    },
     "PYTHON": {
       "TITLE": "Python",
       "DESCRIPTION": "Automation, backend scripting, and PDF generation in AWS Lambda."
+    }
+  },
+
+  "PROJECTS": {
+    "TITLE_PREFIX": "My",
+    "TITLE_HIGHLIGHT": "Projects",
+    "DESCRIPTION": "A selection of personal and professional projects where I have applied my skills to solve real-world problems.",
+    "ECOMARKET": {
+      "TITLE": "EcoMarket",
+      "DESCRIPTION": "E-commerce platform focused on sustainable products. Implements a full shopping cart, payment gateway with Stripe, and an admin panel for inventory management."
+    },
+    "TASKFLOW": {
+      "TITLE": "TaskFlow",
+      "DESCRIPTION": "Real-time collaborative task management application. Allows teams to create boards, assign tasks, and track progress with instant updates."
+    },
+    "CLOUDDASH": {
+      "TITLE": "CloudDash",
+      "DESCRIPTION": "Interactive dashboard to visualize AWS cost and performance metrics. Processes CloudWatch data and presents it in intuitive charts."
     }
   },
   

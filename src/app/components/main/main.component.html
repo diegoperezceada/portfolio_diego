@@ -1,45 +1,47 @@
-<div class="min-h-screen w-full flex flex-col items-center justify-center px-4">
-  <div
-    class="relative w-full max-w-6xl rounded-3xl shadow-2xl backdrop-blur-xl border border-white/20 p-8 sm:p-12 md:p-16 flex flex-col items-center"
-  >
-    <div class="w-full max-w-[280px] sm:max-w-[256px] md:max-w-[320px] lg:max-w-[384px] mb-12">
+<div class="min-h-screen w-full flex flex-col items-center justify-center px-6 py-12 selection:bg-[#ae7ffb]/30">
+  <div class="relative w-full max-w-5xl rounded-[2.5rem] border border-white/10 bg-white/5 backdrop-blur-2xl p-10 sm:p-16 md:p-20 flex flex-col items-center shadow-[0_20px_50px_rgba(0,0,0,0.3)] overflow-hidden">
+    
+    <div class="absolute -top-24 -right-24 w-64 h-64 bg-[#ae7ffb]/10 blur-[100px] rounded-full"></div>
+    <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-[#3fcef7]/10 blur-[100px] rounded-full"></div>
+
+    <div class="relative w-full max-w-[240px] md:max-w-[300px] mb-10 transform hover:scale-105 transition-transform duration-500 ease-out">
       <img
         src="assets/img/diego.webp"
         [alt]="'MAIN.ALT_AVATAR' | translate"
-        class="w-full h-auto block object-contain rounded-2xl"
+        class="w-full h-auto block object-contain drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] animate-float"
       />
     </div>
 
-    <h1
-      class="w-full text-center break-words text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight md:leading-snug bg-gradient-to-r from-[#ae7ffb] to-[#3fcef7] bg-clip-text text-transparent mb-6 tracking-tight"
-    >
+    <h1 class="w-full text-center text-5xl md:text-8xl font-black tracking-tighter bg-gradient-to-r from-[#ae7ffb] via-[#a7acff] to-[#3fcef7] bg-clip-text text-transparent mb-4">
       Diego Pérez Ceada
     </h1>
 
-    <span
-      class="inline-block mt-2 mb-8 px-10 py-3 rounded-full text-[#a7acff] text-xl md:text-2xl font-semibold shadow transition"
-    >
+    <div class="inline-flex items-center px-6 py-2 rounded-full border border-[#a7acff]/30 bg-[#a7acff]/5 text-[#a7acff] text-lg md:text-xl font-medium mb-8 backdrop-blur-md">
+      <span class="mr-2 flex h-2 w-2 rounded-full bg-[#3fcef7] animate-pulse"></span>
       {{ "MAIN.TITLE" | translate }}
-    </span>
+    </div>
 
-    <p
-      class="text-gray-200 text-lg sm:text-2xl md:text-3xl text-center max-w-4xl mb-4 font-medium"
-    >
+    <p class="text-gray-300/90 text-xl md:text-3xl text-center max-w-2xl mb-12 font-light leading-relaxed">
       {{ "MAIN.SUBTITLE" | translate }}
     </p>
 
-    <div class="flex flex-col md:flex-row gap-6 mt-6 w-full justify-center">
+    <div class="flex flex-col sm:flex-row gap-5 w-full sm:w-auto">
       <a
         href="#contact"
-        class="flex items-center justify-center gap-4 w-full md:w-auto px-10 py-4 rounded-xl border-2 border-[#6e6fee] text-[#bfcbff] text-lg md:text-xl font-bold shadow-md hover:bg-[#5032b6]/40 hover:text-white transition"
+        class="group relative flex items-center justify-center gap-3 px-10 py-4 rounded-2xl bg-gradient-to-br from-[#6e6fee] to-[#5032b6] text-white text-lg font-bold shadow-lg shadow-[#6e6fee]/20 hover:shadow-[#6e6fee]/40 hover:-translate-y-1 transition-all duration-300"
       >
         {{ "MAIN.CTA_TALK" | translate }}
+        <span class="group-hover:translate-x-1 transition-transform">→</span>
       </a>
+      
       <a
         [href]="'assets/documents/CV_diego' + '.pdf'"
         download
-        class="flex items-center justify-center gap-4 w-full md:w-auto px-10 py-4 rounded-xl border-2 border-[#6e6fee] text-[#bfcbff] text-lg md:text-xl font-bold shadow-md hover:bg-[#5032b6]/40 hover:text-white transition"
+        class="flex items-center justify-center gap-3 px-10 py-4 rounded-2xl border-2 border-[#6e6fee]/50 text-[#bfcbff] text-lg font-bold hover:bg-[#6e6fee]/10 hover:border-[#6e6fee] transition-all duration-300"
       >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
         {{ "MAIN.CTA_CV" | translate }}
       </a>
     </div>
